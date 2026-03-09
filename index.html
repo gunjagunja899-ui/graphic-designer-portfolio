@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Gunja | Graphic Designer – M.Sc. CS Graduate | Open to MNC Opportunities</title>
+  <meta name="description" content="Portfolio of Gunja – M.Sc. Computer Science graduate and professional Graphic Designer based in New Delhi. Seeking full-time design roles at MNCs. Expertise in Logo Design, Brand Identity, Social Media, and AI-powered Design." />
+  <meta name="keywords" content="Graphic Designer, Logo Design, Social Media Design, Poster Design, AI Design, Brand Identity, New Delhi" />
+  <meta name="author" content="Gunja" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Gunja | Graphic Designer" />
+  <meta property="og:description" content="Creative Graphic Designer specializing in logos, social media & AI design" />
+  <meta property="og:type" content="website" />
+
+  <!-- Favicon -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🎨</text></svg>" />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Work+Sans:ital,wght@0,300;0,400;0,500;0,600;1,300&display=swap" rel="stylesheet" />
+
+  <!-- Remix Icons -->
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.7.0/fonts/remixicon.css" rel="stylesheet" />
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- Scroll Progress -->
+  <div class="scroll-progress" aria-hidden="true"></div>
+
+  <!-- Page Loader -->
+  <div class="page-loader" id="pageLoader">
+    <div class="loader-inner">
+      <span class="loader-text">GK</span>
+      <div class="loader-bar"></div>
+    </div>
+  </div>
+
+  <!-- ══════════════════════════════════════
+       HEADER / NAVIGATION
+  ══════════════════════════════════════ -->
+  <header class="site-header" id="siteHeader">
+    <div class="container header-inner">
+      <a href="#hero" class="brand" aria-label="Gunja – Home">
+        <span class="brand-name">GK</span>
+        <span class="brand-dot"></span>
+      </a>
+
+      <nav class="nav" id="mainNav" aria-label="Main navigation">
+        <a href="#about"     class="nav-link">About</a>
+        <a href="#logos"     class="nav-link">Logos</a>
+        <a href="#portfolio" class="nav-link">Portfolio</a>
+        <a href="#contact"   class="nav-link">Contact</a>
+        <a href="assets/gk-resume.pdf" target="_blank" rel="noopener" class="nav-cta">
+          <i class="ri-download-line"></i> Resume
+        </a>
+      </nav>
+
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ══════════════════════════════════════
+       HERO SECTION
+  ══════════════════════════════════════ -->
+  <section id="hero" class="hero-section">
+    <!-- Ambient glow blobs -->
+    <div class="glow glow-pink"   aria-hidden="true"></div>
+    <div class="glow glow-violet" aria-hidden="true"></div>
+    <div class="glow glow-orange" aria-hidden="true"></div>
+
+    <div class="container hero-inner">
+      <!-- Left: Text -->
+      <div class="hero-text" data-reveal>
+        <div class="hero-badge">
+          <span class="badge-dot"></span>
+          M.Sc. CS Graduate &nbsp;·&nbsp; Open to MNC Opportunities
+        </div>
+
+        <h1 class="hero-title">
+          I Design.<br/>
+          I Create.<br/>
+          <span class="hero-title-accent">I Inspire.</span>
+        </h1>
+
+        <p class="hero-subtitle">
+          Hi, I'm <strong>Gunja</strong> — a
+          <span class="typing-wrapper">
+            <span class="typing-text" id="typingText"></span><span class="typing-cursor"></span>
+          </span>
+          <br/>based in New Delhi, crafting visuals that leave a mark.
+        </p>
+
+        <div class="hero-actions">
+          <a href="#logos" class="btn btn-primary">
+            <i class="ri-pen-nib-line"></i> View Logo Work
+          </a>
+          <a href="#contact" class="btn btn-outline">
+            <i class="ri-mail-line"></i> Get In Touch
+          </a>
+        </div>
+
+        <!-- Quick specializations -->
+        <div class="hero-pills">
+          <span class="pill"><i class="ri-pen-nib-line"></i> Logo Design</span>
+          <span class="pill"><i class="ri-graduation-cap-line"></i> M.Sc. CS</span>
+          <span class="pill"><i class="ri-layout-line"></i> Brand Identity</span>
+          <span class="pill"><i class="ri-robot-line"></i> AI Design</span>
+        </div>
+      </div>
+
+      <!-- Right: Floating mockup cards -->
+      <div class="hero-visuals" aria-hidden="true">
+        <div class="mockup-grid">
+          <div class="mockup-card mc-1">
+            <div class="mc-inner" style="background: linear-gradient(135deg,#667eea,#764ba2);">
+              <span class="mc-icon">⚡</span>
+              <span class="mc-label">Logo Design</span>
+            </div>
+          </div>
+          <div class="mockup-card mc-2">
+            <div class="mc-inner" style="background: linear-gradient(135deg,#f093fb,#f5576c);">
+              <span class="mc-icon">🌸</span>
+              <span class="mc-label">Brand Identity</span>
+            </div>
+          </div>
+          <div class="mockup-card mc-3">
+            <div class="mc-inner" style="background: linear-gradient(135deg,#30cfd0,#330867);">
+              <span class="mc-icon">🎉</span>
+              <span class="mc-label">Social Media</span>
+            </div>
+          </div>
+          <div class="mockup-card mc-4">
+            <div class="mc-inner" style="background: linear-gradient(135deg,#0f0c29,#302b63,#24243e);">
+              <span class="mc-icon">🎵</span>
+              <span class="mc-label">Poster Design</span>
+            </div>
+          </div>
+          <div class="mockup-card mc-5">
+            <div class="mc-inner" style="background: linear-gradient(135deg,#4facfe,#00f2fe);">
+              <span class="mc-icon">🌌</span>
+              <span class="mc-label">AI Art</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Stats strip -->
+    <div class="hero-stats container">
+      <div class="stat-strip" id="statsStrip"></div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════
+       FEATURED LOGO DESIGNS SECTION
+  ══════════════════════════════════════ -->
+  <section id="logos" class="section section-dark">
+    <div class="container">
+      <div class="section-label" data-reveal>Signature Work</div>
+      <h2 class="section-title text-center" data-reveal>
+        Featured <span class="text-gradient">Logo Designs</span>
+      </h2>
+      <p class="section-desc text-center" data-reveal>
+        Five original brand identity concepts — each with a unique visual language crafted to communicate brand values at a glance.
+      </p>
+      <div class="logo-showcase" id="logoShowcase"></div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════
+       ABOUT + SKILLS SECTION
+  ══════════════════════════════════════ -->
+  <section id="about" class="section">
+    <div class="container">
+      <div class="section-label" data-reveal>About Me</div>
+      <div class="about-grid">
+        <!-- Left: Avatar + name -->
+        <div class="about-visual" data-reveal>
+          <div class="about-avatar">
+            <span class="avatar-letter">G</span>
+            <div class="avatar-ring"></div>
+          </div>
+          <h2 class="about-name">Gunja</h2>
+          <p class="about-role">Graphic Designer & Visual Artist</p>
+          <div class="about-social">
+            <a href="https://instagram.com"  target="_blank" rel="noopener" class="social-btn" title="Instagram" aria-label="Instagram"><i class="ri-instagram-line"></i></a>
+            <a href="https://behance.net"    target="_blank" rel="noopener" class="social-btn" title="Behance"   aria-label="Behance"><i class="ri-behance-line"></i></a>
+            <a href="https://linkedin.com"   target="_blank" rel="noopener" class="social-btn" title="LinkedIn"  aria-label="LinkedIn"><i class="ri-linkedin-line"></i></a>
+            <a href="mailto:Gunjagunja899@gmail.com" class="social-btn"    title="Email"     aria-label="Email"><i class="ri-mail-line"></i></a>
+          </div>
+        </div>
+
+        <!-- Right: Bio + skills + education -->
+        <div class="about-content" data-reveal>
+          <h2 class="section-title">Professional <span class="text-gradient">Profile</span></h2>
+          <p class="about-bio" id="aboutBio"></p>
+
+          <div class="skills-container" id="skillsContainer"></div>
+
+          <!-- Education Timeline -->
+          <div class="edu-block" data-reveal>
+            <h3 class="edu-block-title"><i class="ri-graduation-cap-line"></i> Education</h3>
+            <div class="edu-timeline" id="eduTimeline"></div>
+          </div>
+
+          <!-- Certifications -->
+          <div class="cert-block" data-reveal>
+            <h3 class="edu-block-title"><i class="ri-award-line"></i> Certifications</h3>
+            <div class="cert-list" id="certList"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════
+       PORTFOLIO SECTION
+  ══════════════════════════════════════ -->
+  <section id="portfolio" class="section section-dark">
+    <div class="container">
+      <div class="section-label" data-reveal>My Work</div>
+      <h2 class="section-title text-center" data-reveal>
+        Design <span class="text-gradient">Showcase</span>
+      </h2>
+      <p class="section-desc text-center" data-reveal>
+        A curated selection of my best work across logos, social media, posters, and AI-generated design.
+      </p>
+
+      <!-- Filter tabs -->
+      <div class="filter-tabs" id="filterTabs" data-reveal>
+        <button class="filter-btn active" data-filter="all">All Work</button>
+        <button class="filter-btn" data-filter="logo">
+          <i class="ri-pen-nib-line"></i> Logo Design
+        </button>
+        <button class="filter-btn" data-filter="social">
+          <i class="ri-smartphone-line"></i> Social Media
+        </button>
+        <button class="filter-btn" data-filter="poster">
+          <i class="ri-layout-line"></i> Posters
+        </button>
+        <button class="filter-btn" data-filter="ai">
+          <i class="ri-robot-line"></i> AI Design
+        </button>
+        <button class="filter-btn" data-filter="fashion">
+          <i class="ri-scissors-2-line"></i> Fashion Design
+        </button>
+      </div>
+
+      <!-- Portfolio grid -->
+      <div class="portfolio-grid" id="portfolioGrid"></div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════
+       CONTACT SECTION
+  ══════════════════════════════════════ -->
+  <section id="contact" class="section">
+    <div class="container">
+      <div class="section-label" data-reveal>Get In Touch</div>
+      <div class="contact-wrapper" data-reveal>
+        <!-- Left: Info -->
+        <div class="contact-info">
+          <h2 class="section-title">Let's Work<br/><span class="text-gradient">Together</span></h2>
+          <p class="contact-desc">
+            Have a project in mind? I'd love to hear about it. Whether it's a brand identity, social campaign, or an AI-powered creative piece — let's make something amazing.
+          </p>
+
+          <div class="contact-details">
+            <div class="contact-item">
+              <div class="contact-icon"><i class="ri-mail-line"></i></div>
+              <div>
+                <div class="contact-item-label">Email</div>
+                <a href="mailto:Gunjagunja899@gmail.com" class="contact-item-value">Gunjagunja899@gmail.com</a>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-icon"><i class="ri-phone-line"></i></div>
+              <div>
+                <div class="contact-item-label">Phone</div>
+                <a href="tel:+917827601318" class="contact-item-value">+91 7827601318</a>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-icon"><i class="ri-map-pin-line"></i></div>
+              <div>
+                <div class="contact-item-label">Location</div>
+                <span class="contact-item-value">New Delhi, India</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right: Form -->
+        <form class="contact-form" id="contactForm" novalidate>
+          <div class="form-group">
+            <label for="cfName">Your Name</label>
+            <input type="text"  id="cfName"    name="name"    placeholder="e.g. Rahul Sharma" required />
+          </div>
+          <div class="form-group">
+            <label for="cfEmail">Email Address</label>
+            <input type="email" id="cfEmail"   name="email"   placeholder="e.g. rahul@email.com" required />
+          </div>
+          <div class="form-group">
+            <label for="cfService">Service Needed</label>
+            <select id="cfService" name="service">
+              <option value="">Select a service...</option>
+              <option value="logo">Logo Design</option>
+              <option value="social">Social Media Design</option>
+              <option value="poster">Poster / Banner</option>
+              <option value="ai">AI Design Work</option>
+              <option value="branding">Full Branding Package</option>
+              <option value="fashion">Fashion / Textile Design</option>
+              <option value="other">Other</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="cfMessage">Project Details</label>
+            <textarea id="cfMessage" name="message" rows="5" placeholder="Tell me about your project, timeline, and budget..." required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary btn-full" id="cfSubmit">
+            <i class="ri-send-plane-fill"></i> Send Message
+          </button>
+          <div class="form-status" id="formStatus" aria-live="polite"></div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════
+       FOOTER
+  ══════════════════════════════════════ -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <span class="brand-name">GK</span>
+        <span class="brand-dot"></span>
+        <span class="footer-tagline">Graphic Designer</span>
+      </div>
+      <p class="footer-copy">© <span id="footerYear"></span> Gunja. All rights reserved.</p>
+      <div class="footer-social">
+        <a href="https://instagram.com" target="_blank" rel="noopener" aria-label="Instagram"><i class="ri-instagram-line"></i></a>
+        <a href="https://behance.net"   target="_blank" rel="noopener" aria-label="Behance"><i class="ri-behance-line"></i></a>
+        <a href="https://linkedin.com"  target="_blank" rel="noopener" aria-label="LinkedIn"><i class="ri-linkedin-line"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ══════════════════════════════════════
+       LIGHTBOX MODAL
+  ══════════════════════════════════════ -->
+  <div class="lightbox" id="lightbox" aria-modal="true" role="dialog" aria-label="Portfolio item" hidden>
+    <div class="lightbox-overlay" id="lightboxOverlay"></div>
+    <div class="lightbox-content">
+      <button class="lightbox-close" id="lightboxClose" aria-label="Close"><i class="ri-close-line"></i></button>
+      <button class="lightbox-nav prev" id="lightboxPrev" aria-label="Previous"><i class="ri-arrow-left-line"></i></button>
+      <button class="lightbox-nav next" id="lightboxNext" aria-label="Next"><i class="ri-arrow-right-line"></i></button>
+      <div class="lightbox-card" id="lightboxCard"></div>
+    </div>
+  </div>
+
+  <!-- Scripts: data first, then logic -->
+  <script src="data.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
